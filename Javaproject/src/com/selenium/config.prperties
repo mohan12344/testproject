@@ -1,0 +1,18 @@
+###########Global Properties#############
+
+url =http://www.demo.guru99.com/V4/
+
+username = mngr225136
+password = zuzyzar
+
+browser = chrome
+
+##########Login Objects#############
+
+name_username = uid
+name_password = password
+name_SubmitButton = btnLogin
+
+xpath_username = //input[@name='uid']
+xpath_password = //input[@name='password']
+xpath_SubmitButton = //input[@name='btnLogin']

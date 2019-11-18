@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orange.test.PIMpageTest">
+        <methods>
+          <include name="addemploye"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.orange.test.PIMpageTest -->
+      <class name="com.orange.test.LoginpageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="verifyLogo"/>
+          <include name="setUp"/>
+          <include name="loginPageTitle"/>
+        </methods>
+      </class> <!-- com.orange.test.LoginpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
